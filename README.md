@@ -61,4 +61,10 @@ Final Verdict
 Classification: True Positive  
 The incident is confirmed as a Malicious Phishing attempt designed for credential harvesting.  
 
-## [🔗 Click here to view the Full Incident Report](./Phishing Incident Report.pdf)
+---
+
+## 📂 Project Files
+* **[Full Report (PDF)](./Phishing_Incident_Report.pdf)** - Detailed analysis and remediation steps.
+* **[Evidence Screenshots](./Screenshots/)** - Raw captures from MXToolbox, WHOIS, and urlscan.io.
+
+---
