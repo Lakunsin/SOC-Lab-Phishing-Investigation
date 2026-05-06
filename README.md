@@ -38,18 +38,18 @@ A search on Have I Been Pwned was conducted for the recipient sonyundefinedralph
 
 ![Investigation Tools](./Screenshots/Account_exposure.png)  
 
-3. Containment  
+## 3. Containment  
 •	Blocked the sender's IP address 217.18.161.43 (as shown by mxtoolbox) at the perimeter firewall.  
 •	Added the malicious domain x-egamb.com and the TinyURL path to the organization’s DNS sinkhole or web filter.  
 
-4. Eradication & Recovery  
+## 4. Eradication & Recovery  
 •	Deleted all instances of this email from the mail server (Search & Purge) to prevent other users from clicking the link.  
 •	Reset credentials for any user who interacted with the link.  
 •	Monitor the targeted email account for:  
   o	unusual login patterns  
   o	creation of new inbox rules (often used by attackers to hide further activity).  
 
-5. Post-Incident Activity (Lessons Learned)  
+## 5. Post-Incident Activity (Lessons Learned)  
 Root Cause:  
 Exploitation of a poorly configured third-party domain to bypass spam filters.  
 Improvement:  
@@ -57,7 +57,7 @@ Implement Brand Protection tools to alert if external domains are masquerading a
 User Training:  
 Use this specific template for a simulated phishing exercise to train employees on identifying mismatched sender addresses and suspicious links.  
 
-Final Verdict  
+## Final Verdict  
 Classification: True Positive  
 The incident is confirmed as a Malicious Phishing attempt designed for credential harvesting.  
 
