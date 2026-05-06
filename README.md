@@ -12,7 +12,8 @@ A. Email IOCs
 | :--- | :--- | :--- |
 | **Header: From** | `Microsoft Security Team <info@libreriacies.es>` | The display name is spoofed; the actual sender domain is a Spanish bookstore. |
 | **Link** | `https[:]//tinyurl[.]com/ypu5kfts` | Use of a URL shortener to bypass basic link filtering. |
-![Investigation Tools](./Screenshots/Email_IOCs.png)
+![Investigation Tools](./Screenshots/Email_IOCs.png)  
+
 B. Behavioral IOCs
 •	Social Engineering: The attacker uses Urgency ("within 24 hours") and Fear ("access... may be restricted") to bypass the user's critical thinking. 
 •	Generic Greeting: The use of "Dear User" instead of a specific name indicates mass-mailing.
