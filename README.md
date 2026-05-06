@@ -60,3 +60,5 @@ Use this specific template for a simulated phishing exercise to train employees 
 Final Verdict  
 Classification: True Positive  
 The incident is confirmed as a Malicious Phishing attempt designed for credential harvesting.  
+
+## [🔗 Click here to view the Full Incident Report](./Phishing Incident Report.pdf)
