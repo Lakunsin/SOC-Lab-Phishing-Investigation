@@ -11,7 +11,8 @@ A. Email IOCs
 | Artifacts | Value | Analysis |
 | :--- | :--- | :--- |
 | **Header: From** | `Microsoft Security Team <info@libreriacies.es>` | The display name is spoofed; the actual sender domain is a Spanish bookstore. |
-| **Link** | `https[:]//tinyurl[.]com/ypu5kfts` | Use of a URL shortener to bypass basic link filtering. |  
+| **Link** | `https[:]//tinyurl[.]com/ypu5kfts` | Use of a URL shortener to bypass basic link filtering.  
+
 ![Investigation Tools](./Screenshots/Email_IOCs.png)  
 
 B. Behavioral IOCs
